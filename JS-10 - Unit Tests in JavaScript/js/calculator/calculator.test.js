@@ -32,11 +32,11 @@ test('multiply 8 * 36 to 288', () => {
   expect(calculator.multiply(8, 36)).toBe(288);
 });
 
-test('multiply 12 * 4 to equal Infinity', () => {
+test('multiply 12 * 4 to equal 48', () => {
   expect(calculator.multiply(12, 4)).toBe(48);
 });
 
 // Challenge - Divide
-test('divide 5 / 0 to equal 5', () => {
+test('divide 5 / 0 to equal infinity', () => {
   expect(calculator.divide(5, 0)).toBe(5);
 });
